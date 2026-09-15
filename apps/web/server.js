@@ -1,1 +1,1 @@
-require("http").createServer((_, r) => { r.writeHead(200, {"Content-Type":"text/html"}); r.end("<h1>web service — Node, no Dockerfile, via nixpacks</h1>"); }).listen(process.env.PORT || 3000);
+require("http").createServer((_, r) => { r.writeHead(200, {"Content-Type":"text/html; charset=utf-8"}); r.end("<h1>web service — Node, no Dockerfile, via nixpacks</h1><p>GitHub App PR preview test</p>"); }).listen(process.env.PORT || 3000);
